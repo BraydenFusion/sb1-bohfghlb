@@ -15,7 +15,7 @@ export const HeroActions = () => {
         className="group"
         rightIcon={<ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />}
       >
-        Schedule Free Consultation
+        Schedule A Consultation
       </Button>
       <Button 
         variant="secondary" 
