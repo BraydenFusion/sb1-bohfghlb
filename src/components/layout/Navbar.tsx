@@ -6,11 +6,9 @@ import { Brain } from 'lucide-react';
 const mainNavLinks = [
   { label: 'Features', href: '/features' },
   { label: 'Pricing', href: '/pricing' },
-  { label: 'Case Studies', href: '/case-studies' },
 ];
 
 const resourceLinks = [
-  { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
 ];
 
@@ -50,8 +48,6 @@ export const Navbar = () => {
                 </Link>
               ))}
             </div>
-            <Button variant="ghost" size="sm">Sign In</Button>
-            <Button variant="primary" size="sm">Get Started</Button>
           </div>
         </div>
       </div>

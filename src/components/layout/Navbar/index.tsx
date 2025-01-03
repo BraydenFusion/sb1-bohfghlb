@@ -1,10 +1,8 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Button } from '@/components/ui/Button';
-import { Brain, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Brain } from 'lucide-react';
 
 export const Navbar = () => {
-  const navigate = useNavigate();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-accent-blue/20">
@@ -19,24 +17,6 @@ export const Navbar = () => {
               Fusion
             </span>
           </Link>
-
-          <div className="flex items-center gap-4">
-            <Button 
-              variant="ghost" 
-              size="sm"
-              onClick={() => navigate('/coming-soon')}
-            >
-              Sign In
-            </Button>
-            <Button 
-              variant="primary" 
-              size="sm" 
-              className="gap-2"
-              onClick={() => navigate('/coming-soon')}
-            >
-              Get Started <ExternalLink className="w-4 h-4" />
-            </Button>
-          </div>
         </div>
       </div>
     </nav>
