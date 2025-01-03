@@ -7,14 +7,11 @@ const mainNavLinks = [
   { label: 'Features', href: '/features' },
   { label: 'Pricing', href: '/pricing' },
   { label: 'Case Studies', href: '/case-studies' },
-  { label: 'Docs', href: '/docs' },
-  { label: 'Blog', href: '/blog' }
 ];
 
 const resourceLinks = [
-  { label: 'Community', href: '/community' },
-  { label: 'Partners', href: '/partners' },
-  { label: 'About', href: '/about' }
+  { label: 'Blog', href: '/blog' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 export const Navbar = () => {
