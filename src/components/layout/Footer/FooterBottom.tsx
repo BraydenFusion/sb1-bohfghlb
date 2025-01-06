@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const FooterBottom = () => {
   return (
     <div className="mt-16 pt-8 border-t border-white/10">
